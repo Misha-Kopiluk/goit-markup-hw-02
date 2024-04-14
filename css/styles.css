@@ -12,6 +12,7 @@ ul{
     list-style: none;
 }
 
+/*==============HEADER=============*/
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -53,6 +54,8 @@ ul{
 .contacts-link:hover,.contacts-link:focus{
 color: #404bbf;
 }
+
+/*==============HERO=============*/
 .hero{
 background: #2e2f42;
 }
@@ -80,6 +83,7 @@ font-weight: 500;
     background: #404bbf;
 }
 
+/*==============STRATEGY=============*/
 .strategy-list-title{
     font-weight: 500;
     font-size: 20px;
@@ -98,13 +102,19 @@ font-weight: 500;
     background: #f4f4fd;
 }
 
+/*==============OUR TEAM=============*/
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
+}
+
+.description-list{
+    background-color: #FFFFFF
 }
 
 .description{
@@ -124,12 +134,14 @@ font-weight: 500;
     text-align: center;
 }
 
+/*==============Our Portfolio=============*/
 .title-our-portfolio{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42
 }
 
@@ -148,6 +160,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
 }
 
+/*==============FOOTER=============*/
 .footer{
     background: #2e2f42;
 }
@@ -156,7 +169,7 @@ font-weight: 500;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
